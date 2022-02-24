@@ -1,0 +1,6 @@
+Test project that uses:
+
+.Net 6
+Entity Framework
+Angular 13
+Bootstrap
