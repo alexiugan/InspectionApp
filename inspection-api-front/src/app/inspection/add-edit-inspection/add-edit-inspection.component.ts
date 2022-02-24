@@ -1,8 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { InspectionApiService } from 'src/app/inspection-api.service';
-import { InspectionTypeApiService } from 'src/app/inspection-type-api.service';
-import { StatusApiService } from 'src/app/status-api.service';
+import { InspectionApiService } from 'src/app/services/inspection-api.service';
+import { InspectionTypeApiService } from 'src/app/services/inspection-type-api.service';
+import { StatusApiService } from 'src/app/services/status-api.service';
 
 @Component({
   selector: 'app-add-edit-inspection',
